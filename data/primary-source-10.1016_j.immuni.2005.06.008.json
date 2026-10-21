@@ -1,0 +1,445 @@
+{
+  "retrieved_at": "2026-10-21T10:03:18.144390+00:00",
+  "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.immuni.2005.06.008&format=json&resultType=core",
+  "results": [
+    {
+      "id": "16111635",
+      "source": "MED",
+      "pmid": "16111635",
+      "doi": "10.1016/j.immuni.2005.06.008",
+      "title": "Suppression of RNA recognition by Toll-like receptors: the impact of nucleoside modification and the evolutionary origin of RNA.",
+      "authorString": "Karikó K, Buckstein M, Ni H, Weissman D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Karikó K",
+            "lastName": "Karikó",
+            "firstName": "Katalin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurosurgery, University of Pennsylvania School of Medicine, Philadelphia, 19104, USA. kariko@mail.med.upenn.edu"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Buckstein M",
+            "lastName": "Buckstein",
+            "firstName": "Michael",
+            "initials": "M"
+          },
+          {
+            "fullName": "Ni H",
+            "lastName": "Ni",
+            "firstName": "Houping",
+            "initials": "H"
+          },
+          {
+            "fullName": "Weissman D",
+            "lastName": "Weissman",
+            "firstName": "Drew",
+            "initials": "D"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "related_data",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "2",
+        "volume": "23",
+        "journalIssueId": 1255698,
+        "dateOfPublication": "2005 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2005,
+        "journal": {
+          "medlineAbbreviation": "Immunity",
+          "title": "Immunity",
+          "essn": "1097-4180",
+          "issn": "1074-7613",
+          "isoabbreviation": "Immunity",
+          "nlmid": "9432918"
+        },
+        "printPublicationDate": "2005-08-01"
+      },
+      "pubYear": "2005",
+      "pageInfo": "165-175",
+      "abstractText": "DNA and RNA stimulate the mammalian innate immune system through activation of Toll-like receptors (TLRs). DNA containing methylated CpG motifs, however, is not stimulatory. Selected nucleosides in naturally occurring RNA are also methylated or otherwise modified, but the immunomodulatory effects of these alterations remain untested. We show that RNA signals through human TLR3, TLR7, and TLR8, but incorporation of modified nucleosides m5C, m6A, m5U, s2U, or pseudouridine ablates activity. Dendritic cells (DCs) exposed to such modified RNA express significantly less cytokines and activation markers than those treated with unmodified RNA. DCs and TLR-expressing cells are potently activated by bacterial and mitochondrial RNA, but not by mammalian total RNA, which is abundant in modified nucleosides. We conclude that nucleoside modifications suppress the potential of RNA to activate DCs. The innate immune system may therefore detect RNA lacking nucleoside modification as a means of selectively responding to bacteria or necrotic tissue.",
+      "affiliation": "Department of Neurosurgery, University of Pennsylvania School of Medicine, Philadelphia, 19104, USA. kariko@mail.med.upenn.edu",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDCR NIH HHS",
+            "acronym": "DE",
+            "grantId": "DE14825",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIAID NIH HHS",
+            "acronym": "AI",
+            "grantId": "AI060505",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIAID NIH HHS",
+            "acronym": "AI",
+            "grantId": "AI50484",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Dendritic Cells",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "DE",
+                  "qualifierName": "drug effects"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cell Line"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Nucleosides",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phosphatidylethanolamines",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PD",
+                  "qualifierName": "pharmacology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Immunoglobulins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Membrane Glycoproteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Receptors, Cell Surface",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "AI",
+                  "qualifierName": "antagonists & inhibitors"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Antigens, CD"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "HLA-DR Antigens",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cytokines",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Evolution, Molecular"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Signal Transduction",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Toll-Like Receptors"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Toll-Like Receptor 3"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Toll-Like Receptor 7"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Toll-Like Receptor 8"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biomarkers"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "CD83 Antigen"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "1,2-dielaidoylphosphatidylethanolamine",
+            "registryNumber": "76391-83-8"
+          },
+          {
+            "name": "CD83 antigen",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Toll-like receptors",
+            "registryNumber": "0"
+          },
+          {
+            "name": "RNA",
+            "registryNumber": "63231-63-0"
+          },
+          {
+            "name": "Nucleosides",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Immunoglobulins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Receptors, Cell Surface",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Phosphatidylethanolamines",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Membrane Glycoproteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "HLA-DR Antigens",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Antigens, CD",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Cytokines",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Toll-Like Receptor 3",
+            "registryNumber": "0"
+          },
+          {
+            "name": "TLR3 protein, human",
+            "registryNumber": "0"
+          },
+          {
+            "name": "TLR7 protein, human",
+            "registryNumber": "0"
+          },
+          {
+            "name": "TLR8 protein, human",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Toll-Like Receptor 7",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Toll-Like Receptor 8",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Biomarkers",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.immuni.2005.06.008"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "16111629",
+            "reference": "Immunity. 2005 Aug;23(2):111-3. doi: 10.1016/j.immuni.2005.08.003.",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2074,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2005-10-05",
+      "dateOfCreation": "2005-08-23",
+      "dateOfRevision": "2026-01-28",
+      "firstPublicationDate": "2005-08-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    }
+  ]
+}

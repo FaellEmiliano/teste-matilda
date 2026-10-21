@@ -1,0 +1,62 @@
+[
+  {
+    "id": "crispr",
+    "name": "CRISPR",
+    "aliases": [
+      "crispr",
+      "crisprs",
+      "clustered regularly interspaced short palindromic repeats"
+    ]
+  },
+  {
+    "id": "cas9",
+    "name": "Cas9",
+    "aliases": [
+      "cas9",
+      "crispr-cas9",
+      "crispr/cas"
+    ]
+  },
+  {
+    "id": "genome-editing",
+    "name": "Edição genômica",
+    "aliases": [
+      "genome editing",
+      "genome engineering",
+      "gene editing",
+      "edição genômica",
+      "genomic manipulation"
+    ]
+  },
+  {
+    "id": "mrna",
+    "name": "RNA mensageiro",
+    "aliases": [
+      "mrna",
+      "messenger rna",
+      "rna mensageiro"
+    ]
+  },
+  {
+    "id": "nucleoside",
+    "name": "Modificação de nucleosídeos",
+    "aliases": [
+      "pseudouridine",
+      "nucleoside modification",
+      "modified nucleosides",
+      "modified nucleotides",
+      "nucleoside-modified"
+    ]
+  },
+  {
+    "id": "rna-immunity",
+    "name": "Reconhecimento imune de RNA",
+    "aliases": [
+      "toll-like",
+      "immunogenicity",
+      "immunogenic",
+      "rna recognition",
+      "interferon-alpha"
+    ]
+  }
+]

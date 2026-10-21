@@ -1,0 +1,450 @@
+{
+  "retrieved_at": "2026-10-21T10:03:19.522203+00:00",
+  "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fnature09886&format=json&resultType=core",
+  "results": [
+    {
+      "id": "21455174",
+      "source": "MED",
+      "pmid": "21455174",
+      "pmcid": "PMC3070239",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3070239"
+        ]
+      },
+      "doi": "10.1038/nature09886",
+      "title": "CRISPR RNA maturation by trans-encoded small RNA and host factor RNase III.",
+      "authorString": "Deltcheva E, Chylinski K, Sharma CM, Gonzales K, Chao Y, Pirzada ZA, Eckert MR, Vogel J, Charpentier E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Deltcheva E",
+            "lastName": "Deltcheva",
+            "firstName": "Elitza",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Laboratory for Molecular Infection Medicine Sweden, Umeå, Sweden."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chylinski K",
+            "lastName": "Chylinski",
+            "firstName": "Krzysztof",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7029-8090"
+            }
+          },
+          {
+            "fullName": "Sharma CM",
+            "lastName": "Sharma",
+            "firstName": "Cynthia M",
+            "initials": "CM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2321-9705"
+            }
+          },
+          {
+            "fullName": "Gonzales K",
+            "lastName": "Gonzales",
+            "firstName": "Karine",
+            "initials": "K"
+          },
+          {
+            "fullName": "Chao Y",
+            "lastName": "Chao",
+            "firstName": "Yanjie",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5735-7954"
+            }
+          },
+          {
+            "fullName": "Pirzada ZA",
+            "lastName": "Pirzada",
+            "firstName": "Zaid A",
+            "initials": "ZA"
+          },
+          {
+            "fullName": "Eckert MR",
+            "lastName": "Eckert",
+            "firstName": "Maria R",
+            "initials": "MR"
+          },
+          {
+            "fullName": "Vogel J",
+            "lastName": "Vogel",
+            "firstName": "Jörg",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2220-1404"
+            }
+          },
+          {
+            "fullName": "Charpentier E",
+            "lastName": "Charpentier",
+            "firstName": "Emmanuelle",
+            "initials": "E"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6713-2540"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7029-8090"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2321-9705"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5735-7954"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2220-1404"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "related_data",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "7340",
+        "volume": "471",
+        "journalIssueId": 1819538,
+        "dateOfPublication": "2011 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2011,
+        "journal": {
+          "medlineAbbreviation": "Nature",
+          "title": "Nature",
+          "essn": "1476-4687",
+          "issn": "0028-0836",
+          "nlmid": "0410462",
+          "isoabbreviation": "Nature"
+        },
+        "printPublicationDate": "2011-03-01"
+      },
+      "pubYear": "2011",
+      "pageInfo": "602-607",
+      "abstractText": "CRISPR/Cas systems constitute a widespread class of immunity systems that protect bacteria and archaea against phages and plasmids, and commonly use repeat/spacer-derived short crRNAs to silence foreign nucleic acids in a sequence-specific manner. Although the maturation of crRNAs represents a key event in CRISPR activation, the responsible endoribonucleases (CasE, Cas6, Csy4) are missing in many CRISPR/Cas subtypes. Here, differential RNA sequencing of the human pathogen Streptococcus pyogenes uncovered tracrRNA, a trans-encoded small RNA with 24-nucleotide complementarity to the repeat regions of crRNA precursor transcripts. We show that tracrRNA directs the maturation of crRNAs by the activities of the widely conserved endogenous RNase III and the CRISPR-associated Csn1 protein; all these components are essential to protect S. pyogenes against prophage-derived DNA. Our study reveals a novel pathway of small guide RNA maturation and the first example of a host factor (RNase III) required for bacterial RNA-mediated immunity against invaders.",
+      "affiliation": "The Laboratory for Molecular Infection Medicine Sweden, Umeå, Sweden.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Austrian Science Fund FWF",
+            "grantId": "P 17238-B09",
+            "orderIn": 0
+          },
+          {
+            "agency": "Austrian Science Fund FWF",
+            "acronym": "FWF_",
+            "grantId": "P 17238",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Escherichia coli"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Streptococcus pyogenes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "VI",
+                  "qualifierName": "virology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Prophages",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ribonuclease III",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Bacterial Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA Precursors",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "DNA, Viral",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA, Bacterial",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BI",
+                  "qualifierName": "biosynthesis"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA Processing, Post-Transcriptional"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Conserved Sequence"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Models, Biological"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA, Small Untranslated"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "DNA, Viral",
+            "registryNumber": "0"
+          },
+          {
+            "name": "RNA, Bacterial",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Bacterial Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "RNA Precursors",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Ribonuclease III",
+            "registryNumber": "EC 3.1.26.3"
+          },
+          {
+            "name": "RNA, Small Untranslated",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/nature09886"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3070239"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3070239?pdf=render"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "21455171",
+            "reference": "Nature. 2011 Mar 31;471(7340):588-9. doi: 10.1038/471588a.",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 1826,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "UNIPROT"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "Y",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "UKMS34171",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2011-05-25",
+      "dateOfCreation": "2011-04-02",
+      "dateOfRevision": "2025-05-29",
+      "firstPublicationDate": "2011-03-01",
+      "firstIndexDate": "2011-04-06",
+      "fullTextReceivedDate": "2025-11-21",
+      "hasEvaluations": "N"
+    }
+  ]
+}

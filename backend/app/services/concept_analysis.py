@@ -1,0 +1,21 @@
+import re
+import unicodedata
+from app.schemas import Concept
+from .storage import load_json
+
+def normalized(text):
+    return ''.join(c for c in unicodedata.normalize('NFKD', text.lower()) if not unicodedata.combining(c))
+
+def contains(text, phrase):
+    return bool(re.search(r'(?<!\w)' + re.escape(normalized(phrase)) + r'(?!\w)', normalized(text)))
+
+def extract_concepts(raw, abstract):
+    sources = {'título': raw.get('title') or raw.get('display_name') or '', 'resumo': abstract or ''}
+    sources['tópicos OpenAlex'] = ' '.join(x.get('display_name', '') for x in raw.get('topics') or [])
+    sources['palavras-chave OpenAlex'] = ' '.join(x.get('display_name', '') for x in raw.get('keywords') or [])
+    result = []
+    for entry in load_json('concepts.json'):
+        provenance = [label for label, text in sources.items() if any(contains(text, alias) for alias in entry['aliases'])]
+        if provenance:
+            result.append(Concept(**entry, provenance=provenance))
+    return result

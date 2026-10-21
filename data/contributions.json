@@ -1,0 +1,153 @@
+[
+  {
+    "id": "rna-2005",
+    "title": "Modificações de nucleosídeos e reconhecimento imune de RNA",
+    "description": "O trabalho de Karikó, Buckstein, Ni e Weissman investiga a supressão do reconhecimento de RNA por receptores Toll-like a partir de modificações de nucleosídeos.",
+    "researcher_ids": [
+      "kariko"
+    ],
+    "participants": [
+      "Katalin Karikó",
+      "Michael H. Buckstein",
+      "Houping Ni",
+      "Drew Weissman"
+    ],
+    "concept_ids": [
+      "mrna",
+      "nucleoside",
+      "rna-immunity"
+    ],
+    "related_dois": [
+      "10.1016/j.immuni.2005.06.008"
+    ],
+    "scientific_field": "Biologia molecular e RNA",
+    "verification_status": "verified"
+  },
+  {
+    "id": "rna-2008",
+    "title": "Pseudouridina: tradução e estabilidade de mRNA",
+    "description": "Em experimentos com células, lisados e camundongos, a equipe observou maior capacidade de tradução e menor imunogenicidade de mRNAs contendo pseudouridina, nas condições estudadas.",
+    "researcher_ids": [
+      "kariko"
+    ],
+    "participants": [
+      "Katalin Karikó",
+      "Hiromi Muramatsu",
+      "Frank A. Welsh",
+      "János Ludwig",
+      "Hiroki Kato",
+      "Shizuo Akira",
+      "Drew Weissman"
+    ],
+    "concept_ids": [
+      "mrna",
+      "nucleoside",
+      "rna-immunity"
+    ],
+    "related_dois": [
+      "10.1038/mt.2008.200"
+    ],
+    "scientific_field": "Biologia molecular e RNA",
+    "verification_status": "verified"
+  },
+  {
+    "id": "crispr-2011",
+    "title": "Maturação de RNA CRISPR com tracrRNA e RNase III",
+    "description": "Deltcheva e colaboradores, incluindo Emmanuelle Charpentier, documentaram a participação de um pequeno RNA transcrito em trans e da RNase III na maturação de RNAs CRISPR.",
+    "researcher_ids": [
+      "charpentier"
+    ],
+    "participants": [
+      "Elitza M. Deltcheva",
+      "Krzysztof Chylinski",
+      "Cynthia Mira Sharma",
+      "Karine Gonzales",
+      "Yanjie Chao",
+      "Zaid Ahmed Pirzada",
+      "Maria R. Eckert",
+      "Jörg Vogel",
+      "Emmanuelle Charpentier"
+    ],
+    "concept_ids": [
+      "crispr"
+    ],
+    "related_dois": [
+      "10.1038/nature09886"
+    ],
+    "scientific_field": "Genética e edição genômica",
+    "verification_status": "verified"
+  },
+  {
+    "id": "crispr-2012",
+    "title": "Cas9 programável guiada por dois RNAs",
+    "description": "Jínek e colaboradores, incluindo Doudna e Charpentier, demonstraram a clivagem de DNA por Cas9 guiada por crRNA e tracrRNA e por um RNA quimérico, indicando potencial para edição genômica programável.",
+    "researcher_ids": [
+      "doudna",
+      "charpentier"
+    ],
+    "participants": [
+      "Martin Jínek",
+      "Krzysztof Chylinski",
+      "Ines Fonfara",
+      "M. Hauer",
+      "Jennifer A. Doudna",
+      "Emmanuelle Charpentier"
+    ],
+    "concept_ids": [
+      "crispr",
+      "cas9",
+      "genome-editing"
+    ],
+    "related_dois": [
+      "10.1126/science.1225829"
+    ],
+    "scientific_field": "Genética e edição genômica",
+    "verification_status": "verified"
+  },
+  {
+    "id": "crispr-2010",
+    "title": "Processamento específico de pre-crRNA por Csy4",
+    "description": "Haurwitz e colaboradores, incluindo Jennifer Doudna, identificaram Csy4 como endorribonuclease responsável pelo processamento de transcritos CRISPR em Pseudomonas aeruginosa e descreveram seu reconhecimento de RNA.",
+    "researcher_ids": [
+      "doudna"
+    ],
+    "participants": [
+      "R.E. Haurwitz",
+      "Martin Jínek",
+      "Blake Wiedenheft",
+      "Kaihong Zhou",
+      "Jennifer A. Doudna"
+    ],
+    "concept_ids": [
+      "crispr"
+    ],
+    "related_dois": [
+      "10.1126/science.1192272"
+    ],
+    "scientific_field": "Genética e edição genômica",
+    "verification_status": "verified"
+  },
+  {
+    "id": "crispr-2014",
+    "title": "Síntese dos mecanismos e aplicações de CRISPR-Cas9",
+    "description": "Doudna e Charpentier revisaram a história, o mecanismo e as aplicações da tecnologia CRISPR-Cas9. Esta contribuição é uma síntese científica, não uma nova descoberta experimental.",
+    "researcher_ids": [
+      "doudna",
+      "charpentier"
+    ],
+    "participants": [
+      "Jennifer A. Doudna",
+      "Emmanuelle Charpentier"
+    ],
+    "concept_ids": [
+      "crispr",
+      "cas9",
+      "genome-editing"
+    ],
+    "related_dois": [
+      "10.1126/science.1258096"
+    ],
+    "scientific_field": "Genética e edição genômica",
+    "verification_status": "verified"
+  }
+]

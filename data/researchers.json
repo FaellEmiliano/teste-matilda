@@ -1,0 +1,44 @@
+[
+  {
+    "id": "kariko",
+    "name": "Katalin Karikó",
+    "openalex_id": "https://openalex.org/A5030598859",
+    "research_areas": [
+      "RNA mensageiro",
+      "Imunologia"
+    ],
+    "identity_status": "verified",
+    "verification_sources": [
+      "https://www.nobelprize.org/prizes/medicine/2023/kariko/facts/",
+      "https://api.nobelprize.org/2.1/laureate/1024"
+    ]
+  },
+  {
+    "id": "doudna",
+    "name": "Jennifer A. Doudna",
+    "openalex_id": "https://openalex.org/A5067184382",
+    "research_areas": [
+      "CRISPR",
+      "Bioquímica"
+    ],
+    "identity_status": "verified",
+    "verification_sources": [
+      "https://www.nobelprize.org/prizes/chemistry/2020/doudna/facts/",
+      "https://api.nobelprize.org/2.1/laureate/992"
+    ]
+  },
+  {
+    "id": "charpentier",
+    "name": "Emmanuelle Charpentier",
+    "openalex_id": "https://openalex.org/A5074743574",
+    "research_areas": [
+      "CRISPR",
+      "Microbiologia"
+    ],
+    "identity_status": "verified",
+    "verification_sources": [
+      "https://www.nobelprize.org/prizes/chemistry/2020/charpentier/facts/",
+      "https://api.nobelprize.org/2.1/laureate/991"
+    ]
+  }
+]

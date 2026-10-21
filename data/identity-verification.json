@@ -1,0 +1,672 @@
+[
+  {
+    "name": "Katalin Karikó",
+    "retrieved_at": "2026-10-21T10:03:15.081775+00:00",
+    "request_url": "https://api.nobelprize.org/2.1/laureates?name=Katalin+Karik%C3%B3",
+    "person": {
+      "id": "1024",
+      "knownName": {
+        "en": "Katalin Karikó",
+        "se": "Katalin Karikó"
+      },
+      "givenName": {
+        "en": "Katalin",
+        "se": "Katalin"
+      },
+      "familyName": {
+        "en": "Karikó",
+        "se": "Karikó"
+      },
+      "fullName": {
+        "en": "Katalin Karikó",
+        "se": "Katalin Karikó"
+      },
+      "fileName": "kariko",
+      "gender": "female",
+      "birth": {
+        "date": "1955-01-17",
+        "year": "1955",
+        "place": {
+          "city": {
+            "en": "Szolnok",
+            "no": "Szolnok",
+            "se": "Szolnok"
+          },
+          "country": {
+            "en": "Hungary",
+            "no": "Ungarn",
+            "se": "Ungern"
+          },
+          "cityNow": {
+            "en": "Szolnok",
+            "no": "Szolnok",
+            "se": "Szolnok",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q181276",
+              "https://www.wikipedia.org/wiki/Szolnok"
+            ],
+            "latitude": "47.174722",
+            "longitude": "20.176389"
+          },
+          "countryNow": {
+            "en": "Hungary",
+            "no": "Ungarn",
+            "se": "Ungern",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q28"
+            ],
+            "latitude": "47.000000",
+            "longitude": "19.000000"
+          },
+          "continent": {
+            "en": "Europe",
+            "no": "Europa",
+            "se": "Europa"
+          },
+          "locationString": {
+            "en": "Szolnok, Hungary",
+            "no": "Szolnok, Ungarn",
+            "se": "Szolnok, Ungern"
+          }
+        }
+      },
+      "wikipedia": {
+        "slug": "Katalin_Karikó",
+        "english": "https://en.wikipedia.org/wiki/Katalin_Karikó"
+      },
+      "wikidata": {
+        "id": "Q88608397",
+        "url": "https://www.wikidata.org/wiki/Q88608397"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q88608397",
+        "https://en.wikipedia.org/wiki/Katalin_Karikó"
+      ],
+      "links": [
+        {
+          "rel": "laureate",
+          "href": "https://api.nobelprize.org/2/laureate/1024",
+          "action": "GET",
+          "types": "application/json"
+        },
+        {
+          "rel": "external",
+          "href": "https://www.nobelprize.org/laureate/1024",
+          "title": "Katalin Karikó - Facts",
+          "action": "GET",
+          "types": "text/html",
+          "class": [
+            "laureate facts"
+          ]
+        }
+      ],
+      "nobelPrizes": [
+        {
+          "awardYear": "2023",
+          "category": {
+            "en": "Physiology or Medicine",
+            "no": "Fysiologi eller medisin",
+            "se": "Fysiologi eller medicin"
+          },
+          "categoryFullName": {
+            "en": "The Nobel Prize in Physiology or Medicine",
+            "no": "Nobelprisen i fysiologi eller medisin",
+            "se": "Nobelpriset i fysiologi eller medicin"
+          },
+          "sortOrder": "1",
+          "portion": "1/2",
+          "dateAwarded": "2023-10-02",
+          "prizeStatus": "received",
+          "motivation": {
+            "en": "for their discoveries concerning nucleoside base modifications that enabled the development of effective mRNA vaccines against COVID-19",
+            "se": "för deras upptäckter rörande nucleosidbasmodifieringar som möjliggjorde utveckling av effektiva mRNA-vacciner mot covid-19"
+          },
+          "prizeAmount": 11000000,
+          "prizeAmountAdjusted": 11314967,
+          "affiliations": [
+            {
+              "name": {
+                "en": "Szeged University",
+                "no": "Szeged University",
+                "se": "Szeged University"
+              },
+              "nameNow": {
+                "en": "Szeged University"
+              },
+              "city": {
+                "en": "Szeged",
+                "no": "Szeged",
+                "se": "Szeged"
+              },
+              "country": {
+                "en": "Hungary",
+                "no": "Ungarn",
+                "se": "Ungern"
+              },
+              "cityNow": {
+                "en": "Szeged",
+                "no": "Szeged",
+                "se": "Szeged",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q81581",
+                  "https://www.wikipedia.org/wiki/Szeged"
+                ],
+                "latitude": "46.252930",
+                "longitude": "20.141511"
+              },
+              "countryNow": {
+                "en": "Hungary",
+                "no": "Ungarn",
+                "se": "Ungern",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q28"
+                ],
+                "latitude": "47.000000",
+                "longitude": "19.000000"
+              },
+              "continent": {
+                "en": "Europe"
+              },
+              "locationString": {
+                "en": "Szeged, Hungary",
+                "no": "Szeged, Ungarn",
+                "se": "Szeged, Ungern"
+              }
+            },
+            {
+              "name": {
+                "en": "University of Pennsylvania",
+                "no": "University of Pennsylvania",
+                "se": "University of Pennsylvania"
+              },
+              "nameNow": {
+                "en": "University of Pennsylvania"
+              },
+              "city": {
+                "en": "Philadelphia, PA",
+                "no": "Philadelphia, PA",
+                "se": "Philadelphia, PA"
+              },
+              "country": {
+                "en": "USA",
+                "no": "USA",
+                "se": "USA"
+              },
+              "cityNow": {
+                "en": "Philadelphia, PA",
+                "no": "Philadelphia, PA",
+                "se": "Philadelphia, PA",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q1345",
+                  "https://www.wikipedia.org/wiki/Philadelphia"
+                ],
+                "latitude": "39.957132",
+                "longitude": "-75.174342"
+              },
+              "countryNow": {
+                "en": "USA",
+                "no": "USA",
+                "se": "USA",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q30"
+                ],
+                "latitude": "39.828175",
+                "longitude": "-98.579500"
+              },
+              "continent": {
+                "en": "North America"
+              },
+              "locationString": {
+                "en": "Philadelphia, PA, USA",
+                "no": "Philadelphia, PA, USA",
+                "se": "Philadelphia, PA, USA"
+              }
+            }
+          ],
+          "links": [
+            {
+              "rel": "nobelPrize",
+              "href": "https://api.nobelprize.org/2/nobelPrize/med/2023",
+              "action": "GET",
+              "types": "application/json"
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/medicine/2023/kariko/facts/",
+              "title": "Katalin Karikó - Facts",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "laureate facts"
+              ]
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/medicine/2023/summary/",
+              "title": "The Nobel Prize in Physiology or Medicine 2023",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "prize summary"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Emmanuelle Charpentier",
+    "retrieved_at": "2026-10-21T10:03:16.736963+00:00",
+    "request_url": "https://api.nobelprize.org/2.1/laureates?name=Emmanuelle+Charpentier",
+    "person": {
+      "id": "991",
+      "knownName": {
+        "en": "Emmanuelle Charpentier",
+        "se": "Emmanuelle Charpentier"
+      },
+      "givenName": {
+        "en": "Emmanuelle",
+        "se": "Emmanuelle"
+      },
+      "familyName": {
+        "en": "Charpentier",
+        "se": "Charpentier"
+      },
+      "fullName": {
+        "en": "Emmanuelle Charpentier",
+        "se": "Emmanuelle Charpentier"
+      },
+      "fileName": "charpentier",
+      "gender": "female",
+      "birth": {
+        "date": "1968-12-11",
+        "year": "1968",
+        "place": {
+          "city": {
+            "en": "Juvisy-sur-Orge",
+            "no": "Juvisy-sur-Orge",
+            "se": "Juvisy-sur-Orge"
+          },
+          "country": {
+            "en": "France",
+            "no": "Frankrike",
+            "se": "Frankrike"
+          },
+          "cityNow": {
+            "en": "Juvisy-sur-Orge",
+            "no": "Juvisy-sur-Orge",
+            "se": "Juvisy-sur-Orge",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q752255",
+              "https://www.wikipedia.org/wiki/Juvisy-sur-Orge"
+            ],
+            "latitude": "48.688333",
+            "longitude": "2.377500"
+          },
+          "countryNow": {
+            "en": "France",
+            "no": "Frankrike",
+            "se": "Frankrike",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q142"
+            ],
+            "latitude": "47.000000",
+            "longitude": "2.000000"
+          },
+          "continent": {
+            "en": "Europe",
+            "no": "Europa",
+            "se": "Europa"
+          },
+          "locationString": {
+            "en": "Juvisy-sur-Orge, France",
+            "no": "Juvisy-sur-Orge, Frankrike",
+            "se": "Juvisy-sur-Orge, Frankrike"
+          }
+        }
+      },
+      "wikipedia": {
+        "slug": "Emmanuelle_Charpentier",
+        "english": "https://en.wikipedia.org/wiki/Emmanuelle_Charpentier"
+      },
+      "wikidata": {
+        "id": "Q17280087",
+        "url": "https://www.wikidata.org/wiki/Q17280087"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q17280087",
+        "https://en.wikipedia.org/wiki/Emmanuelle_Charpentier"
+      ],
+      "links": [
+        {
+          "rel": "laureate",
+          "href": "https://api.nobelprize.org/2/laureate/991",
+          "action": "GET",
+          "types": "application/json"
+        },
+        {
+          "rel": "external",
+          "href": "https://www.nobelprize.org/laureate/991",
+          "title": "Emmanuelle Charpentier - Facts",
+          "action": "GET",
+          "types": "text/html",
+          "class": [
+            "laureate facts"
+          ]
+        }
+      ],
+      "nobelPrizes": [
+        {
+          "awardYear": "2020",
+          "category": {
+            "en": "Chemistry",
+            "no": "Kjemi",
+            "se": "Kemi"
+          },
+          "categoryFullName": {
+            "en": "The Nobel Prize in Chemistry",
+            "no": "Nobelprisen i kjemi",
+            "se": "Nobelpriset i kemi"
+          },
+          "sortOrder": "1",
+          "portion": "1/2",
+          "dateAwarded": "2020-10-07",
+          "prizeStatus": "received",
+          "motivation": {
+            "en": "for the development of a method for genome editing",
+            "se": "för utveckling av en metod för genomeditering"
+          },
+          "prizeAmount": 10000000,
+          "prizeAmountAdjusted": 12361835,
+          "affiliations": [
+            {
+              "name": {
+                "en": "Max Planck Unit for the Science of Pathogens",
+                "no": "Max Planck Unit for the Science of Pathogens",
+                "se": "Max Planck Unit for the Science of Pathogens"
+              },
+              "nameNow": {
+                "en": "Max Planck Unit for the Science of Pathogens"
+              },
+              "city": {
+                "en": "Berlin",
+                "no": "Berlin",
+                "se": "Berlin"
+              },
+              "country": {
+                "en": "Germany",
+                "no": "Tyskland",
+                "se": "Tyskland"
+              },
+              "cityNow": {
+                "en": "Berlin",
+                "no": "Berlin",
+                "se": "Berlin",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q64",
+                  "https://www.wikipedia.org/wiki/Berlin"
+                ],
+                "latitude": "52.522265",
+                "longitude": "13.406852"
+              },
+              "countryNow": {
+                "en": "Germany",
+                "no": "Tyskland",
+                "se": "Tyskland",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q183"
+                ],
+                "latitude": "51.000000",
+                "longitude": "10.000000"
+              },
+              "continent": {
+                "en": "Europe"
+              },
+              "locationString": {
+                "en": "Berlin, Germany",
+                "no": "Berlin, Tyskland",
+                "se": "Berlin, Tyskland"
+              }
+            }
+          ],
+          "links": [
+            {
+              "rel": "nobelPrize",
+              "href": "https://api.nobelprize.org/2/nobelPrize/che/2020",
+              "action": "GET",
+              "types": "application/json"
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/chemistry/2020/charpentier/facts/",
+              "title": "Emmanuelle Charpentier - Facts",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "laureate facts"
+              ]
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/chemistry/2020/summary/",
+              "title": "The Nobel Prize in Chemistry 2020",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "prize summary"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Jennifer A. Doudna",
+    "retrieved_at": "2026-10-21T10:05:12.135623+00:00",
+    "request_url": "https://api.nobelprize.org/2.1/laureates?name=Doudna",
+    "person": {
+      "id": "992",
+      "knownName": {
+        "en": "Jennifer A. Doudna",
+        "se": "Jennifer A. Doudna"
+      },
+      "givenName": {
+        "en": "Jennifer A.",
+        "se": "Jennifer A."
+      },
+      "familyName": {
+        "en": "Doudna",
+        "se": "Doudna"
+      },
+      "fullName": {
+        "en": "Jennifer A. Doudna",
+        "se": "Jennifer A. Doudna"
+      },
+      "fileName": "doudna",
+      "gender": "female",
+      "birth": {
+        "date": "1964-02-19",
+        "year": "1964",
+        "place": {
+          "city": {
+            "en": "Washington, D.C.",
+            "no": "Washington, D.C.",
+            "se": "Washington, D.C."
+          },
+          "country": {
+            "en": "USA",
+            "no": "USA",
+            "se": "USA"
+          },
+          "cityNow": {
+            "en": "Washington, D.C.",
+            "no": "Washington, D.C.",
+            "se": "Washington, D.C.",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q61",
+              "https://www.wikipedia.org/wiki/Washington,_D.C."
+            ],
+            "latitude": "38.899065",
+            "longitude": "-77.036523"
+          },
+          "countryNow": {
+            "en": "USA",
+            "no": "USA",
+            "se": "USA",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q30"
+            ],
+            "latitude": "39.828175",
+            "longitude": "-98.579500"
+          },
+          "continent": {
+            "en": "North America",
+            "no": "Nord-Amerika",
+            "se": "Nordamerika"
+          },
+          "locationString": {
+            "en": "Washington, D.C., USA",
+            "no": "Washington, D.C., USA",
+            "se": "Washington, D.C., USA"
+          }
+        }
+      },
+      "wikipedia": {
+        "slug": "Jennifer_Doudna",
+        "english": "https://en.wikipedia.org/wiki/Jennifer_Doudna"
+      },
+      "wikidata": {
+        "id": "Q56068",
+        "url": "https://www.wikidata.org/wiki/Q56068"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q56068",
+        "https://en.wikipedia.org/wiki/Jennifer_Doudna"
+      ],
+      "links": [
+        {
+          "rel": "laureate",
+          "href": "https://api.nobelprize.org/2/laureate/992",
+          "action": "GET",
+          "types": "application/json"
+        },
+        {
+          "rel": "external",
+          "href": "https://www.nobelprize.org/laureate/992",
+          "title": "Jennifer A. Doudna - Facts",
+          "action": "GET",
+          "types": "text/html",
+          "class": [
+            "laureate facts"
+          ]
+        }
+      ],
+      "nobelPrizes": [
+        {
+          "awardYear": "2020",
+          "category": {
+            "en": "Chemistry",
+            "no": "Kjemi",
+            "se": "Kemi"
+          },
+          "categoryFullName": {
+            "en": "The Nobel Prize in Chemistry",
+            "no": "Nobelprisen i kjemi",
+            "se": "Nobelpriset i kemi"
+          },
+          "sortOrder": "2",
+          "portion": "1/2",
+          "dateAwarded": "2020-10-07",
+          "prizeStatus": "received",
+          "motivation": {
+            "en": "for the development of a method for genome editing",
+            "se": "för utveckling av en metod för genomeditering"
+          },
+          "prizeAmount": 10000000,
+          "prizeAmountAdjusted": 12361835,
+          "affiliations": [
+            {
+              "name": {
+                "en": "University of California",
+                "no": "University of California",
+                "se": "University of California"
+              },
+              "nameNow": {
+                "en": "University of California"
+              },
+              "city": {
+                "en": "Berkeley, CA",
+                "no": "Berkeley, CA",
+                "se": "Berkeley, CA"
+              },
+              "country": {
+                "en": "USA",
+                "no": "USA",
+                "se": "USA"
+              },
+              "cityNow": {
+                "en": "Berkeley, CA",
+                "no": "Berkeley, CA",
+                "se": "Berkeley, CA",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q484678",
+                  "https://www.wikipedia.org/wiki/Berkeley,_California"
+                ],
+                "latitude": "37.871790",
+                "longitude": "-122.274715"
+              },
+              "countryNow": {
+                "en": "USA",
+                "no": "USA",
+                "se": "USA",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q30"
+                ],
+                "latitude": "39.828175",
+                "longitude": "-98.579500"
+              },
+              "continent": {
+                "en": "North America"
+              },
+              "locationString": {
+                "en": "Berkeley, CA, USA",
+                "no": "Berkeley, CA, USA",
+                "se": "Berkeley, CA, USA"
+              }
+            }
+          ],
+          "links": [
+            {
+              "rel": "nobelPrize",
+              "href": "https://api.nobelprize.org/2/nobelPrize/che/2020",
+              "action": "GET",
+              "types": "application/json"
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/chemistry/2020/doudna/facts/",
+              "title": "Jennifer A. Doudna - Facts",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "laureate facts"
+              ]
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/chemistry/2020/summary/",
+              "title": "The Nobel Prize in Chemistry 2020",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "prize summary"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

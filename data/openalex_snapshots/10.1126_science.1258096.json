@@ -1,0 +1,1296 @@
+{
+  "retrieved_at": "2026-10-21T09:44:19.239012+00:00",
+  "request_url": "https://api.openalex.org/works/https://doi.org/10.1126/science.1258096",
+  "data": {
+    "id": "https://openalex.org/W2050480410",
+    "doi": "https://doi.org/10.1126/science.1258096",
+    "title": "The new frontier of genome engineering with CRISPR-Cas9",
+    "display_name": "The new frontier of genome engineering with CRISPR-Cas9",
+    "publication_year": 2014,
+    "publication_date": "2014-11-28",
+    "ids": {
+      "openalex": "https://openalex.org/W2050480410",
+      "doi": "https://doi.org/10.1126/science.1258096",
+      "mag": "2050480410",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/25430774"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1126/science.1258096",
+      "doi": "https://doi.org/10.1126/science.1258096",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1126/science.1258096",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S3880285",
+        "display_name": "Science",
+        "issn_l": "0036-8075",
+        "issn": [
+          "0036-8075",
+          "0193-4511",
+          "1095-9203"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-a",
+          "doyens",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-3",
+          "medline",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310315823",
+        "host_organization_name": "American Association for the Advancement of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315823"
+        ],
+        "host_organization_lineage_names": [
+          "American Association for the Advancement of Science"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Science",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5067184382",
+          "display_name": "Jennifer A. Doudna",
+          "orcid": "https://orcid.org/0000-0001-9161-999X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9161-999X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1344073410",
+            "display_name": "Howard Hughes Medical Institute",
+            "ror": "https://ror.org/006w34k90",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1344073410"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I148283060",
+            "display_name": "Lawrence Berkeley National Laboratory",
+            "ror": "https://ror.org/02jbv0t02",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I39565521"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jennifer A. Doudna",
+        "raw_affiliation_strings": [
+          "Department of Chemistry, University of California, Berkeley, CA 94720, USA",
+          "Howard Hughes Medical Institute, Department of Molecular and Cell Biology, University of California, Berkeley, CA 94720, USA",
+          "Physical Biosciences Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemistry, University of California, Berkeley, CA 94720, USA",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Howard Hughes Medical Institute, Department of Molecular and Cell Biology, University of California, Berkeley, CA 94720, USA",
+            "institution_ids": [
+              "https://openalex.org/I1344073410",
+              "https://openalex.org/I95457486"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Physical Biosciences Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA",
+            "institution_ids": [
+              "https://openalex.org/I148283060"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5074743574",
+          "display_name": "Emmanuelle Charpentier",
+          "orcid": "https://orcid.org/0000-0002-0254-0778",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0254-0778"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I34809795",
+            "display_name": "Medizinische Hochschule Hannover",
+            "ror": "https://ror.org/00f2yqf98",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I34809795"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210124929",
+            "display_name": "Helmholtz Centre for Infection Research",
+            "ror": "https://ror.org/03d0p2685",
+            "country_code": "DE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1305996414",
+              "https://openalex.org/I4210124929"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4405273516",
+            "display_name": "Umeå Centre for Microbial Research",
+            "ror": "https://ror.org/05y3vbx53",
+            "country_code": "SE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4405273516"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I90267481",
+            "display_name": "Umeå University",
+            "ror": "https://ror.org/05kb8h459",
+            "country_code": "SE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I90267481"
+            ]
+          }
+        ],
+        "countries": [
+          "DE",
+          "SE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Emmanuelle Charpentier",
+        "raw_affiliation_strings": [
+          "Department of Regulation in Infection Biology, Helmholtz Centre for Infection Research, D-38124 Braunschweig, Germany",
+          "Hannover Medical School, D-30625 Hannover, Germany",
+          "Laboratory for Molecular Infection Medicine Sweden, Umeå Centre for Microbial Research, Department of Molecular Biology, Umeå University, S-90187 Umeå, Sweden"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Regulation in Infection Biology, Helmholtz Centre for Infection Research, D-38124 Braunschweig, Germany",
+            "institution_ids": [
+              "https://openalex.org/I4210124929"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Hannover Medical School, D-30625 Hannover, Germany",
+            "institution_ids": [
+              "https://openalex.org/I34809795"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Laboratory for Molecular Infection Medicine Sweden, Umeå Centre for Microbial Research, Department of Molecular Biology, Umeå University, S-90187 Umeå, Sweden",
+            "institution_ids": [
+              "https://openalex.org/I4405273516",
+              "https://openalex.org/I90267481"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 7,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5067184382",
+      "https://openalex.org/A5074743574"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I1344073410",
+      "https://openalex.org/I148283060",
+      "https://openalex.org/I34809795",
+      "https://openalex.org/I4210124929",
+      "https://openalex.org/I4405273516",
+      "https://openalex.org/I90267481",
+      "https://openalex.org/I95457486"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 162.1978,
+    "has_fulltext": false,
+    "cited_by_count": 7041,
+    "citation_normalized_percentile": {
+      "value": 0.99993412,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "346",
+      "issue": "6213",
+      "first_page": "1258096",
+      "last_page": "1258096"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10878",
+      "display_name": "CRISPR and Genetic Engineering",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10878",
+        "display_name": "CRISPR and Genetic Engineering",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12610",
+        "display_name": "RNA regulation and disease",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10120",
+        "display_name": "Bacterial Genetics and Biotechnology",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/crispr-cas9",
+        "display_name": "CRISPR/Cas9",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/genome-editing",
+        "display_name": "genome editing",
+        "score": 0.800000011920929
+      },
+      {
+        "id": "https://openalex.org/keywords/rna-guided-genome-editing",
+        "display_name": "RNA-guided genome editing",
+        "score": 0.7990000247955322
+      },
+      {
+        "id": "https://openalex.org/keywords/genome-modification",
+        "display_name": "genome modification",
+        "score": 0.5989999771118164
+      },
+      {
+        "id": "https://openalex.org/keywords/genome-regulation",
+        "display_name": "genome regulation",
+        "score": 0.7120000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/biotechnology-applications",
+        "display_name": "biotechnology applications",
+        "score": 0.8399999737739563
+      },
+      {
+        "id": "https://openalex.org/keywords/human-therapeutics",
+        "display_name": "human therapeutics",
+        "score": 0.6769999861717224
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C98108389",
+        "wikidata": "https://www.wikidata.org/wiki/Q412563",
+        "display_name": "CRISPR",
+        "level": 3,
+        "score": 0.978070855140686
+      },
+      {
+        "id": "https://openalex.org/C132455925",
+        "wikidata": "https://www.wikidata.org/wiki/Q16965677",
+        "display_name": "Cas9",
+        "level": 4,
+        "score": 0.6776131987571716
+      },
+      {
+        "id": "https://openalex.org/C144501496",
+        "wikidata": "https://www.wikidata.org/wiki/Q5533489",
+        "display_name": "Genome editing",
+        "level": 4,
+        "score": 0.6631731986999512
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.6422074437141418
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.5720255374908447
+      },
+      {
+        "id": "https://openalex.org/C2780513914",
+        "wikidata": "https://www.wikidata.org/wiki/Q18210350",
+        "display_name": "Bottleneck",
+        "level": 2,
+        "score": 0.5699197053909302
+      },
+      {
+        "id": "https://openalex.org/C145290725",
+        "wikidata": "https://www.wikidata.org/wiki/Q5533489",
+        "display_name": "Genome engineering",
+        "level": 5,
+        "score": 0.547590970993042
+      },
+      {
+        "id": "https://openalex.org/C141231307",
+        "wikidata": "https://www.wikidata.org/wiki/Q7020",
+        "display_name": "Genome",
+        "level": 3,
+        "score": 0.5244141817092896
+      },
+      {
+        "id": "https://openalex.org/C44667518",
+        "wikidata": "https://www.wikidata.org/wiki/Q12321",
+        "display_name": "Palindrome",
+        "level": 4,
+        "score": 0.4944906234741211
+      },
+      {
+        "id": "https://openalex.org/C191908910",
+        "wikidata": "https://www.wikidata.org/wiki/Q862838",
+        "display_name": "Synthetic biology",
+        "level": 2,
+        "score": 0.4803130030632019
+      },
+      {
+        "id": "https://openalex.org/C189206191",
+        "wikidata": "https://www.wikidata.org/wiki/Q222046",
+        "display_name": "Genomics",
+        "level": 4,
+        "score": 0.42020153999328613
+      },
+      {
+        "id": "https://openalex.org/C54355233",
+        "wikidata": "https://www.wikidata.org/wiki/Q7162",
+        "display_name": "Genetics",
+        "level": 1,
+        "score": 0.3962287902832031
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.3006722033023834
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.16808006167411804
+      },
+      {
+        "id": "https://openalex.org/C149635348",
+        "wikidata": "https://www.wikidata.org/wiki/Q193040",
+        "display_name": "Embedded system",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005818",
+        "descriptor_name": "Genetic Engineering",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005818",
+        "descriptor_name": "Genetic Engineering",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005818",
+        "descriptor_name": "Genetic Engineering",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015894",
+        "descriptor_name": "Genome, Human",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015894",
+        "descriptor_name": "Genome, Human",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015894",
+        "descriptor_name": "Genome, Human",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D018390",
+        "descriptor_name": "Gene Targeting",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D018390",
+        "descriptor_name": "Gene Targeting",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D018390",
+        "descriptor_name": "Gene Targeting",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D053837",
+        "descriptor_name": "DNA Cleavage",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D053837",
+        "descriptor_name": "DNA Cleavage",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D053837",
+        "descriptor_name": "DNA Cleavage",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D058727",
+        "descriptor_name": "RNA, Small Untranslated",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D058727",
+        "descriptor_name": "RNA, Small Untranslated",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D058727",
+        "descriptor_name": "RNA, Small Untranslated",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D064112",
+        "descriptor_name": "Clustered Regularly Interspaced Short Palindromic Repeats",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D064112",
+        "descriptor_name": "Clustered Regularly Interspaced Short Palindromic Repeats",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D064112",
+        "descriptor_name": "Clustered Regularly Interspaced Short Palindromic Repeats",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      }
+    ],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1126/science.1258096",
+        "doi": "https://doi.org/10.1126/science.1258096",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1126/science.1258096",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S3880285",
+          "display_name": "Science",
+          "issn_l": "0036-8075",
+          "issn": [
+            "0036-8075",
+            "0193-4511",
+            "1095-9203"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-a",
+            "doyens",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-3",
+            "medline",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310315823",
+          "host_organization_name": "American Association for the Advancement of Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315823"
+          ],
+          "host_organization_lineage_names": [
+            "American Association for the Advancement of Science"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Science",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:25430774",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/25430774",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Science (New York, N.Y.)",
+        "raw_type": "Journal Article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306082",
+        "display_name": "Howard Hughes Medical Institute",
+        "ror": "https://ror.org/006w34k90"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 154,
+    "referenced_works": [
+      "https://openalex.org/W1493535861",
+      "https://openalex.org/W1504222414",
+      "https://openalex.org/W1506494596",
+      "https://openalex.org/W1531234455",
+      "https://openalex.org/W1575193685",
+      "https://openalex.org/W1594078235",
+      "https://openalex.org/W1597185777",
+      "https://openalex.org/W1845461494",
+      "https://openalex.org/W1861710003",
+      "https://openalex.org/W1906155566",
+      "https://openalex.org/W1930053815",
+      "https://openalex.org/W1933893097",
+      "https://openalex.org/W1950503156",
+      "https://openalex.org/W1963554509",
+      "https://openalex.org/W1966452674",
+      "https://openalex.org/W1967262291",
+      "https://openalex.org/W1970196890",
+      "https://openalex.org/W1973260880",
+      "https://openalex.org/W1976019826",
+      "https://openalex.org/W1976391205",
+      "https://openalex.org/W1978094899",
+      "https://openalex.org/W1978129709",
+      "https://openalex.org/W1978917197",
+      "https://openalex.org/W1981160614",
+      "https://openalex.org/W1982831423",
+      "https://openalex.org/W1982873976",
+      "https://openalex.org/W1983197357",
+      "https://openalex.org/W1983237714",
+      "https://openalex.org/W1986171241",
+      "https://openalex.org/W1986316308",
+      "https://openalex.org/W1988101725",
+      "https://openalex.org/W1989568784",
+      "https://openalex.org/W1990379499",
+      "https://openalex.org/W1990487336",
+      "https://openalex.org/W1990490402",
+      "https://openalex.org/W1991062831",
+      "https://openalex.org/W1995041448",
+      "https://openalex.org/W1999305754",
+      "https://openalex.org/W2001487604",
+      "https://openalex.org/W2001488804",
+      "https://openalex.org/W2001497035",
+      "https://openalex.org/W2002712030",
+      "https://openalex.org/W2003171404",
+      "https://openalex.org/W2003911538",
+      "https://openalex.org/W2005622066",
+      "https://openalex.org/W2009576434",
+      "https://openalex.org/W2010187816",
+      "https://openalex.org/W2010986636",
+      "https://openalex.org/W2012488414",
+      "https://openalex.org/W2014601660",
+      "https://openalex.org/W2014806360",
+      "https://openalex.org/W2019670881",
+      "https://openalex.org/W2021767455",
+      "https://openalex.org/W2024123713",
+      "https://openalex.org/W2026520402",
+      "https://openalex.org/W2028543816",
+      "https://openalex.org/W2030974598",
+      "https://openalex.org/W2030994161",
+      "https://openalex.org/W2031984687",
+      "https://openalex.org/W2036176224",
+      "https://openalex.org/W2039705224",
+      "https://openalex.org/W2040665850",
+      "https://openalex.org/W2041797639",
+      "https://openalex.org/W2042841971",
+      "https://openalex.org/W2043972484",
+      "https://openalex.org/W2045435533",
+      "https://openalex.org/W2048071312",
+      "https://openalex.org/W2057224174",
+      "https://openalex.org/W2058755882",
+      "https://openalex.org/W2058792860",
+      "https://openalex.org/W2059363769",
+      "https://openalex.org/W2062521268",
+      "https://openalex.org/W2064815984",
+      "https://openalex.org/W2067853474",
+      "https://openalex.org/W2068427957",
+      "https://openalex.org/W2070134501",
+      "https://openalex.org/W2073873559",
+      "https://openalex.org/W2074862753",
+      "https://openalex.org/W2075921959",
+      "https://openalex.org/W2076785026",
+      "https://openalex.org/W2077190448",
+      "https://openalex.org/W2077659966",
+      "https://openalex.org/W2078308455",
+      "https://openalex.org/W2085206835",
+      "https://openalex.org/W2085436536",
+      "https://openalex.org/W2086860427",
+      "https://openalex.org/W2087176206",
+      "https://openalex.org/W2089589904",
+      "https://openalex.org/W2091725010",
+      "https://openalex.org/W2094588748",
+      "https://openalex.org/W2095041848",
+      "https://openalex.org/W2096261947",
+      "https://openalex.org/W2101749257",
+      "https://openalex.org/W2101801511",
+      "https://openalex.org/W2103081715",
+      "https://openalex.org/W2103609218",
+      "https://openalex.org/W2104820165",
+      "https://openalex.org/W2105060561",
+      "https://openalex.org/W2105464583",
+      "https://openalex.org/W2105689851",
+      "https://openalex.org/W2107959600",
+      "https://openalex.org/W2108038398",
+      "https://openalex.org/W2112006537",
+      "https://openalex.org/W2112295554",
+      "https://openalex.org/W2112518633",
+      "https://openalex.org/W2113385887",
+      "https://openalex.org/W2115189270",
+      "https://openalex.org/W2116534141",
+      "https://openalex.org/W2118746294",
+      "https://openalex.org/W2119771879",
+      "https://openalex.org/W2120503144",
+      "https://openalex.org/W2120932131",
+      "https://openalex.org/W2122836421",
+      "https://openalex.org/W2122941722",
+      "https://openalex.org/W2123205135",
+      "https://openalex.org/W2123965484",
+      "https://openalex.org/W2124741861",
+      "https://openalex.org/W2129242502",
+      "https://openalex.org/W2132291850",
+      "https://openalex.org/W2132401721",
+      "https://openalex.org/W2133702185",
+      "https://openalex.org/W2133836136",
+      "https://openalex.org/W2133908827",
+      "https://openalex.org/W2135598273",
+      "https://openalex.org/W2138993899",
+      "https://openalex.org/W2139544568",
+      "https://openalex.org/W2140754284",
+      "https://openalex.org/W2142515819",
+      "https://openalex.org/W2149402050",
+      "https://openalex.org/W2149480270",
+      "https://openalex.org/W2151967539",
+      "https://openalex.org/W2153344788",
+      "https://openalex.org/W2153355254",
+      "https://openalex.org/W2153537688",
+      "https://openalex.org/W2153552126",
+      "https://openalex.org/W2156319424",
+      "https://openalex.org/W2157205823",
+      "https://openalex.org/W2160051211",
+      "https://openalex.org/W2161488472",
+      "https://openalex.org/W2161871693",
+      "https://openalex.org/W2162049340",
+      "https://openalex.org/W2162355280",
+      "https://openalex.org/W2163241233",
+      "https://openalex.org/W2163445749",
+      "https://openalex.org/W2166113462",
+      "https://openalex.org/W2166139447",
+      "https://openalex.org/W2167380395",
+      "https://openalex.org/W2168460045",
+      "https://openalex.org/W2168740468",
+      "https://openalex.org/W2168933209",
+      "https://openalex.org/W2169244146",
+      "https://openalex.org/W2170039745",
+      "https://openalex.org/W2313993185",
+      "https://openalex.org/W4206892629"
+    ],
+    "related_works": [
+      "https://openalex.org/W4245053291",
+      "https://openalex.org/W2901315592",
+      "https://openalex.org/W3186223829",
+      "https://openalex.org/W4311710403",
+      "https://openalex.org/W2737091810",
+      "https://openalex.org/W2138734944",
+      "https://openalex.org/W2259042290",
+      "https://openalex.org/W2790778573",
+      "https://openalex.org/W2769919647",
+      "https://openalex.org/W2743466609"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0
+      ],
+      "advent": [
+        1
+      ],
+      "of": [
+        2,
+        23,
+        38,
+        65,
+        73,
+        105
+      ],
+      "facile": [
+        3
+      ],
+      "genome": [
+        4
+      ],
+      "engineering": [
+        5
+      ],
+      "using": [
+        6,
+        51
+      ],
+      "the": [
+        7,
+        21,
+        36,
+        39,
+        46,
+        93
+      ],
+      "bacterial": [
+        8
+      ],
+      "RNA-guided": [
+        9
+      ],
+      "CRISPR-Cas9": [
+        10,
+        40
+      ],
+      "system": [
+        11
+      ],
+      "in": [
+        12,
+        61,
+        81,
+        98,
+        102
+      ],
+      "animals": [
+        13
+      ],
+      "and": [
+        14,
+        67
+      ],
+      "plants": [
+        15
+      ],
+      "is": [
+        16,
+        85
+      ],
+      "transforming": [
+        17
+      ],
+      "biology.": [
+        18
+      ],
+      "We": [
+        19
+      ],
+      "review": [
+        20
+      ],
+      "history": [
+        22
+      ],
+      "CRISPR": [
+        24
+      ],
+      "(clustered": [
+        25
+      ],
+      "regularly": [
+        26
+      ],
+      "interspaced": [
+        27
+      ],
+      "palindromic": [
+        28
+      ],
+      "repeat)": [
+        29
+      ],
+      "biology": [
+        30
+      ],
+      "from": [
+        31,
+        69
+      ],
+      "its": [
+        32
+      ],
+      "initial": [
+        33
+      ],
+      "discovery": [
+        34
+      ],
+      "through": [
+        35
+      ],
+      "elucidation": [
+        37
+      ],
+      "enzyme": [
+        41
+      ],
+      "mechanism,": [
+        42
+      ],
+      "which": [
+        43,
+        82
+      ],
+      "has": [
+        44
+      ],
+      "set": [
+        45
+      ],
+      "stage": [
+        47
+      ],
+      "for": [
+        48,
+        111
+      ],
+      "remarkable": [
+        49
+      ],
+      "developments": [
+        50
+      ],
+      "this": [
+        52
+      ],
+      "technology": [
+        53
+      ],
+      "to": [
+        54,
+        90
+      ],
+      "modify,": [
+        55
+      ],
+      "regulate,": [
+        56
+      ],
+      "or": [
+        57
+      ],
+      "mark": [
+        58
+      ],
+      "genomic": [
+        59,
+        83
+      ],
+      "loci": [
+        60
+      ],
+      "a": [
+        62,
+        78,
+        88
+      ],
+      "wide": [
+        63
+      ],
+      "variety": [
+        64
+      ],
+      "cells": [
+        66
+      ],
+      "organisms": [
+        68
+      ],
+      "all": [
+        70,
+        103
+      ],
+      "three": [
+        71
+      ],
+      "domains": [
+        72
+      ],
+      "life.": [
+        74
+      ],
+      "These": [
+        75
+      ],
+      "results": [
+        76
+      ],
+      "highlight": [
+        77
+      ],
+      "new": [
+        79
+      ],
+      "era": [
+        80
+      ],
+      "manipulation": [
+        84
+      ],
+      "no": [
+        86
+      ],
+      "longer": [
+        87
+      ],
+      "bottleneck": [
+        89
+      ],
+      "experiments,": [
+        91
+      ],
+      "paving": [
+        92
+      ],
+      "way": [
+        94
+      ],
+      "toward": [
+        95
+      ],
+      "fundamental": [
+        96
+      ],
+      "discoveries": [
+        97
+      ],
+      "biology,": [
+        99
+      ],
+      "with": [
+        100
+      ],
+      "applications": [
+        101
+      ],
+      "branches": [
+        104
+      ],
+      "biotechnology,": [
+        106
+      ],
+      "as": [
+        107,
+        109
+      ],
+      "well": [
+        108
+      ],
+      "strategies": [
+        110
+      ],
+      "human": [
+        112
+      ],
+      "therapeutics.": [
+        113
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 543
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 715
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 664
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 580
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 686
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 699
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 652
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 577
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 569
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 545
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 471
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 314
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2012,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-19T09:35:57.686232",
+    "created_date": "2016-06-24T00:00:00"
+  }
+}
