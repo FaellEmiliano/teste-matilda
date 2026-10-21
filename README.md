@@ -9,7 +9,55 @@ bibliográficas e temáticas com dossiês verificáveis.
 
 ## Executar
 
-Requisitos: Python 3.12+, Node.js 22+ e npm. Na raiz do repositório:
+Requisitos: Python 3.12+, Node.js 22+ e npm. Escolha as instruções para seu
+sistema operacional. No Windows, use PowerShell e os comandos da seção seguinte;
+os comandos `make` e `.venv/bin/...` abaixo são para Linux/macOS.
+
+### Windows (PowerShell)
+
+Abra PowerShell na pasta do repositório. Crie o ambiente Python e instale as
+dependências:
+
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r backend\requirements.txt
+Copy-Item .env.example .env
+Push-Location frontend
+npm.cmd ci
+Pop-Location
+```
+
+Abra dois terminais PowerShell na pasta do repositório. No primeiro, inicie a
+API:
+
+```powershell
+.\.venv\Scripts\python.exe -m uvicorn app.main:app --app-dir backend --host 127.0.0.1 --port 8000 --reload
+```
+
+No segundo, inicie a interface:
+
+```powershell
+Push-Location frontend
+npm.cmd run dev
+```
+
+Abra **http://localhost:5173**. A API e o Swagger ficam em
+**http://localhost:8000/docs**. Mantenha os dois terminais abertos. Para parar
+cada processo, pressione `Ctrl+C`; no terminal do frontend, depois execute
+`Pop-Location` ou feche o terminal.
+
+Para verificar a instalação no PowerShell:
+
+```powershell
+.\.venv\Scripts\python.exe -m pytest backend\tests -q
+Push-Location frontend
+npm.cmd run build
+Pop-Location
+```
+
+### Linux/macOS
+
+Na raiz do repositório:
 
 ```sh
 make setup
@@ -36,8 +84,7 @@ npm ci
 ```
 
 Na raiz: `.venv/bin/python -m uvicorn app.main:app --app-dir backend --port 8000`.
-No frontend: `npm run dev`. No Windows, ative `.venv\Scripts\activate` e use
-`python -m uvicorn app.main:app --app-dir backend --port 8000`.
+No frontend: `npm run dev`.
 
 ## Experimente
 
@@ -120,6 +167,7 @@ previsto no PRD é o mecanismo implementado.
 - [Catálogo automático](docs/automatic-catalog.md)
 - [Cenários de demonstração](docs/demo-scenarios.md)
 - [Escopo e pendências do PRD](docs/prd-status.md)
+- [PRD da próxima expansão do motor de busca](docs/prd-expansao-motor-busca.md)
 
 Equipe prevista: quatro desenvolvedores. Nomes e créditos institucionais finais
 aguardam preenchimento pela equipe; não foram inventados.
@@ -137,4 +185,3 @@ Artigos e páginas externas mantêm os direitos dos respectivos autores e editor
 o projeto armazena metadados, paráfrases e referências, sem distribuir PDFs.
 Lucide usa licença ISC; React, Vite e React Flow usam MIT. O código deste
 repositório ainda não recebeu licença de distribuição definida pela equipe.
-Não foi publicado no GitHub nem associado a um remoto.
