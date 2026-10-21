@@ -28,3 +28,8 @@ export const investigate = (doi: string) =>
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ doi }),
   });
+
+export const expandDiscovery = (id: string) =>
+  request<Analysis>(`/api/analyses/${encodeURIComponent(id)}/discovery`, {
+    method: "POST",
+  });

@@ -18,4 +18,8 @@ def extract_concepts(raw, abstract):
         provenance = [label for label, text in sources.items() if any(contains(text, alias) for alias in entry['aliases'])]
         if provenance:
             result.append(Concept(**entry, provenance=provenance))
+    # Dynamic topics expand beyond the small editorial vocabulary.
+    for topic in (raw.get('topics') or [])[:3]:
+        if re.fullmatch(r'https://openalex.org/T\d+', topic.get('id', '')) and topic.get('display_name') and isinstance(topic.get('score'), (int, float)) and topic['score'] >= 0.5:
+            result.append(Concept(id=topic['id'], name=topic['display_name'], provenance=['tópico atribuído pelo OpenAlex; relevância não auditada']))
     return result

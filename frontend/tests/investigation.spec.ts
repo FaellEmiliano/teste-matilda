@@ -141,3 +141,134 @@ test("busca e descoberta por teclado", async ({ page }) => {
     page.getByRole("heading", { name: "Relações da investigação" }),
   ).toBeVisible();
 });
+
+test("ampliação automática distingue candidatos, identidades e fontes", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: /Vacinas de RNA/ }).click();
+  const created = page.waitForResponse(
+    (response) =>
+      response.url().endsWith("/api/analyses") &&
+      response.request().method() === "POST",
+  );
+  await page
+    .getByRole("button", { name: "Investigar contribuições femininas" })
+    .click();
+  const analysis = await (await created).json();
+  const candidate = (id: string, documented: boolean) => ({
+    candidate: {
+      id,
+      work: {
+        doi: "10.9999/" + id,
+        title: "Candidato de teste " + id,
+        year: 2025,
+        authors: [
+          { name: "Pessoa da fixture", openalex_id: null, orcid: null },
+        ],
+        topics: [],
+        sources: [
+          {
+            source: "europe_pmc",
+            source_url: "https://www.ebi.ac.uk/europepmc/",
+            retrieved_at: "2026-10-21T00:00:00Z",
+            from_cache: true,
+          },
+        ],
+      },
+      record_state: "automatically_extracted",
+      verification_status: "pending_review",
+      extraction_method: "abstract_excerpt_v1",
+      excerpt: "We show a result from a synthetic test fixture.",
+      excerpt_location: "Resumo: frase de resultados.",
+      identities: [
+        {
+          author_name: "Pessoa da fixture",
+          status: documented ? "documented_woman" : "unknown",
+          method: documented ? "wikidata_orcid" : "unresolved",
+          explanation:
+            "Identidade determinada apenas por identificador persistente.",
+          source_urls: documented ? ["https://www.wikidata.org/wiki/Q123"] : [],
+        },
+      ],
+      limitations: ["Atribuição individual não revisada."],
+    },
+    retrieval_reasons: ["Tópico compartilhado"],
+    citation_status: "UNKNOWN",
+    relation_type: "RELATED_TO",
+  });
+  await page.route("**/api/analyses/*/discovery", (route) =>
+    route.fulfill({
+      json: {
+        ...analysis,
+        external_discovery: {
+          status: "partial",
+          started_at: "2026-10-21T00:00:00Z",
+          completed_at: "2026-10-21T00:00:02Z",
+          candidates: [candidate("one", true), candidate("two", false)],
+          warnings: ["Referências incompletas."],
+          sources: [],
+          limits: { candidates: 8 },
+        },
+      },
+    }),
+  );
+  await page
+    .getByRole("button", { name: "Ampliar descoberta automaticamente" })
+    .click();
+  await expect(page.locator(".candidate-card")).toHaveCount(2);
+  await expect(page.locator(".automatic-results > summary")).toContainText(
+    "Resultado parcial",
+  );
+  await expect(page.locator(".candidate-card").first()).toContainText(
+    "Pendente de revisão",
+  );
+  await expect(page.locator(".automatic-discovery")).not.toContainText(
+    "Contribuição documentada",
+  );
+  await page
+    .getByRole("checkbox", { name: /Mostrar apenas trabalhos/ })
+    .check();
+  await expect(page.locator(".candidate-card")).toHaveCount(1);
+  await page
+    .getByText("Autoria e resolução de identidades", { exact: true })
+    .click();
+  await expect(page.locator(".candidate-identity")).toContainText(
+    "Mulher identificada em fonte explícita",
+  );
+  await expect(
+    page.getByRole("link", { name: "Fonte de identidade" }),
+  ).toHaveAttribute("href", "https://www.wikidata.org/wiki/Q123");
+  await page.setViewportSize({ width: 390, height: 844 });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+});
+
+test("falha de ampliação preserva investigação e permite nova tentativa", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: /Edição genômica/ }).click();
+  await page
+    .getByRole("button", { name: "Investigar contribuições femininas" })
+    .click();
+  await page.route("**/api/analyses/*/discovery", (route) =>
+    route.fulfill({
+      status: 503,
+      json: { detail: "Fonte indisponível na fixture." },
+    }),
+  );
+  await page
+    .getByRole("button", { name: "Ampliar descoberta automaticamente" })
+    .click();
+  await expect(page.locator(".automatic-error")).toContainText(
+    "Fonte indisponível",
+  );
+  await expect(page.locator(".discovery-card")).toHaveCount(4);
+  await expect(
+    page.getByRole("button", { name: "Ampliar descoberta automaticamente" }),
+  ).toBeEnabled();
+});

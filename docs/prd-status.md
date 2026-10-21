@@ -56,3 +56,17 @@ O protótipo usa CSS próprio e componentes HTML acessíveis em vez de Tailwind 
 uma biblioteca de componentes. Isso preserva o stack central e reduz dependências.
 O catálogo é deliberadamente pequeno; nomes e contribuições não foram inventados
 para atingir metas de volume. SQLite evita infraestrutura além dos dois processos.
+
+
+## Ampliação iniciada em 21/10/2026
+
+Ingestão automática entregue: referências/tópicos OpenAlex, resumos Europe PMC,
+identidades Wikidata por identificadores exatos, candidatos versionados em SQLite,
+fila consultável, interface de inspeção e exportação. Conceitos dinâmicos ampliam
+a ficha além do vocabulário editorial. O catálogo editorial continua com 3
+pesquisadoras e 6 contribuições; os candidatos não contam como atribuições
+verificadas. Detalhes em [automatic-catalog.md](automatic-catalog.md).
+
+A aprovação editorial autenticada, extração por LLM e atribuição por CRediT
+permanecem pendentes. Não há inferência de gênero pelo nome ou promoção automática
+de resumos a afirmações históricas verificadas.

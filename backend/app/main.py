@@ -5,14 +5,14 @@ from datetime import datetime, timezone
 from uuid import uuid4
 from pathlib import Path
 from dotenv import load_dotenv
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import Response
 from app.integrations.openalex import retrieve_paper
 from app.schemas import Analysis, AnalysisRequest, Paper, Graph, Evidence
 from app.services.contribution_search import search_contributions
 from app.services.graph_builder import build_graph
-from app.services.storage import load_json, save_analysis, get_analysis
+from app.services.storage import load_json, save_analysis, get_analysis, update_analysis, list_candidates, get_candidate
 
 load_dotenv(Path(__file__).resolve().parents[2] / '.env')
 logging.basicConfig(level=logging.INFO)
@@ -59,6 +59,28 @@ def find_analysis(identifier):
 def analysis(identifier: str):
     return find_analysis(identifier)
 
+@app.post('/api/analyses/{identifier}/discovery', response_model=Analysis)
+async def expand_discovery(identifier: str):
+    from app.services.automatic_catalog import discover_catalog
+    result = find_analysis(identifier)
+    result.external_discovery = await discover_catalog(result.paper)
+    update_analysis(result)
+    return result
+
+
+@app.get('/api/catalog/candidates')
+def catalog_candidates(offset: int = Query(0, ge=0), limit: int = Query(30, ge=1, le=100)):
+    return list_candidates(offset, limit)
+
+
+@app.get('/api/catalog/candidates/{identifier}')
+def catalog_candidate(identifier: str):
+    record = get_candidate(identifier)
+    if not record:
+        raise HTTPException(404, 'Candidato não encontrado.')
+    return record
+
+
 @app.get('/api/analyses/{identifier}/graph', response_model=Graph)
 def graph(identifier: str):
     return find_analysis(identifier).graph
@@ -83,5 +105,15 @@ def export(identifier: str, format: str = 'markdown'):
         for evidence in match.evidence:
             lines += ['Fonte: '+evidence.source_title, evidence.source_url, 'Localização: '+evidence.excerpt_or_location, 'Afirmação sustentada: '+evidence.claim_supported]
         lines += ['Limitações:'] + ['- '+w for w in match.limitations] + ['']
+    if result.external_discovery:
+        lines += ['## Descoberta automática — pendente de revisão', 'Status: '+result.external_discovery.status]
+        for connection in result.external_discovery.candidates:
+            candidate = connection.candidate
+            lines += ['### '+candidate.work.title, 'DOI: https://doi.org/'+candidate.work.doi, 'Status editorial: '+candidate.verification_status, 'Método: '+candidate.extraction_method, 'Trecho do resumo: '+(candidate.excerpt or 'Indisponível'), 'Relação: RELATED_TO; comparação bibliográfica: '+connection.citation_status]
+            lines += ['Motivo de recuperação: '+reason for reason in connection.retrieval_reasons]
+            lines += ['Identidade: '+identity.author_name+' — '+identity.status+'; fontes: '+', '.join(identity.source_urls) for identity in candidate.identities]
+            lines += ['Fonte: '+source.source+'; URL: '+source.source_url+'; recuperada em: '+source.retrieved_at+'; cache: '+str(source.from_cache) for source in candidate.work.sources]
+            lines += ['Limite: '+warning for warning in candidate.limitations]
+        lines += ['Limite da ampliação: '+warning for warning in result.external_discovery.warnings]
     lines += ['## Cobertura e limitações'] + ['- '+w for w in result.coverage_warnings]
     return Response('\n'.join(lines), media_type='text/markdown; charset=utf-8', headers={'Content-Disposition':f'attachment; filename="matilda-{identifier}.md"'})

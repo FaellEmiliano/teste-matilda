@@ -61,3 +61,19 @@ arestas temáticas são tracejadas. O caminho conceitual da contribuição selec
 recebe destaque. A lista textual exibe todas as arestas com seus significados.
 O grafo mostra até 12 referências e 12 autores; o contrato mantém todos os dados
 recuperados e a comparação considera todas as referências disponíveis.
+
+
+## Catálogo automático (v0.2)
+
+`POST /api/analyses/{id}/discovery` executa um fluxo separado, limitado a 18s,
+com consultas concorrentes ao OpenAlex e Europe PMC, resolução no Wikidata e
+persistência de candidatos. `external_discovery` na Analysis é opcional para
+compatibilidade com investigações anteriores. O retorno é `complete`, `partial`
+ou `unavailable`, com fontes, consultas sem segredos, datas e limitações.
+
+As tabelas `external_cache`, `catalog_candidates` e `catalog_revisions` são
+criadas automaticamente. Os endpoints `/api/catalog/candidates` e
+`/api/catalog/candidates/{id}` permitem inspecionar o catálogo e suas versões.
+O frontend oferece ação de ampliação, filtro de identidade documentada e fontes,
+sem transformar candidatos pendentes em nós verificados. A exportação inclui
+os resultados e todas as limitações. Não há endpoint de aprovação editorial.

@@ -1,3 +1,4 @@
+from .catalog import DiscoveryRun
 from enum import StrEnum
 from typing import Any, Literal
 from pydantic import BaseModel, Field, model_validator
@@ -116,6 +117,7 @@ class Analysis(BaseModel):
     graph: Graph
     coverage_warnings: list[str]
     evidence_summary: dict[str, int]
+    external_discovery: DiscoveryRun | None = None
 
 class AnalysisRequest(BaseModel):
     doi: str = Field(min_length=1, max_length=300)

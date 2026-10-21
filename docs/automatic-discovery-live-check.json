@@ -1,0 +1,232 @@
+[
+  {
+    "doi": "10.1126/science.1231143",
+    "status": "complete",
+    "candidate_count": 8,
+    "automatic_women": [
+      {
+        "doi": "10.1126/science.1225829",
+        "name": "Jennifer A. Doudna",
+        "method": "curated_persistent_id",
+        "sources": [
+          "https://www.nobelprize.org/prizes/chemistry/2020/doudna/facts/",
+          "https://api.nobelprize.org/2.1/laureate/992"
+        ]
+      },
+      {
+        "doi": "10.1126/science.1225829",
+        "name": "Emmanuelle Charpentier",
+        "method": "curated_persistent_id",
+        "sources": [
+          "https://www.nobelprize.org/prizes/chemistry/2020/charpentier/facts/",
+          "https://api.nobelprize.org/2.1/laureate/991"
+        ]
+      }
+    ],
+    "warnings": [
+      "Identidades: consulta limitada a 40 IDs OpenAlex por investigação.",
+      "Candidatos automáticos não foram adicionados ao catálogo editorial verificado nem ao grafo de contribuições verificadas.",
+      "Busca por tópicos prioriza trabalhos mais citados e pode reproduzir vieses de visibilidade; não é uma ordenação por mérito ou completude."
+    ],
+    "sources": [
+      {
+        "source": "openalex",
+        "source_url": "https://api.openalex.org/works",
+        "retrieved_at": "2026-10-21T10:19:23.661961+00:00",
+        "from_cache": true,
+        "query": {
+          "filter": "openalex_id:W137643597|W1978094899|W1978129709|W1989454102|W2003171404|W2010986636,has_doi:true",
+          "per-page": 6
+        }
+      },
+      {
+        "source": "openalex",
+        "source_url": "https://api.openalex.org/works",
+        "retrieved_at": "2026-10-21T10:19:23.496105+00:00",
+        "from_cache": true,
+        "query": {
+          "filter": "topics.id:T10878,has_doi:true",
+          "per-page": 4,
+          "sort": "cited_by_count:desc"
+        }
+      },
+      {
+        "source": "openalex",
+        "source_url": "https://api.openalex.org/works",
+        "retrieved_at": "2026-10-21T10:19:23.582500+00:00",
+        "from_cache": true,
+        "query": {
+          "filter": "topics.id:T12610,has_doi:true",
+          "per-page": 4,
+          "sort": "cited_by_count:desc"
+        }
+      },
+      {
+        "source": "europe_pmc",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+        "retrieved_at": "2026-10-21T10:19:24.001987+00:00",
+        "from_cache": true,
+        "query": {
+          "query": "TITLE_ABS:\"CRISPR Cas9\" AND HAS_DOI:Y",
+          "format": "json",
+          "resultType": "core",
+          "pageSize": 4
+        }
+      },
+      {
+        "source": "europe_pmc",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+        "retrieved_at": "2026-10-21T10:19:24.471959+00:00",
+        "from_cache": true,
+        "query": {
+          "query": "DOI:10.1038/nature02873",
+          "format": "json",
+          "resultType": "core",
+          "pageSize": 1
+        }
+      },
+      {
+        "source": "europe_pmc",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+        "retrieved_at": "2026-10-21T10:19:24.623589+00:00",
+        "from_cache": true,
+        "query": {
+          "query": "DOI:10.1038/nature09523",
+          "format": "json",
+          "resultType": "core",
+          "pageSize": 1
+        }
+      },
+      {
+        "source": "wikidata",
+        "source_url": "https://query.wikidata.org/sparql",
+        "retrieved_at": "2026-10-21T10:23:49.501886+00:00",
+        "from_cache": false,
+        "query": {
+          "query": "SELECT ?person ?orcid ?openalex ?gender ?referenceUrl ?referenceWork WHERE {\n      { VALUES ?orcid { \"0000-0001-5024-1871\" \"0000-0001-5257-336X\" \"0000-0001-5883-7506\" \"0000-0001-6254-3156\" \"0000-0001-7029-8090\" \"0000-0001-7111-9541\" \"0000-0001-7463-3191\" \"0000-0001-8797-3945\" \"0000-0001-9205-8936\" \"0000-0002-0648-3504\" \"0000-0002-0686-370X\" \"0000-0002-1122-3352\" \"0000-0002-2098-9923\" \"0000-0002-2832-5101\" \"0000-0002-3383-1287\" \"0000-0002-3537-7313\" \"0000-0002-3894-1477\" \"0000-0002-3951-2738\" \"0000-0002-4184-0001\" \"0000-0002-5416-8592\" \"0000-0002-5501-1423\" \"0000-0002-6014-1679\" \"0000-0002-6483-5678\" \"0000-0002-6697-4225\" \"0000-0002-7601-210X\" \"0000-0002-7836-5881\" \"0000-0002-8174-2844\" \"0000-0002-8222-5574\" \"0000-0002-8703-1517\" \"0000-0002-9236-0788\" \"0000-0002-9573-1724\" \"0000-0003-2015-8123\" \"0000-0003-2556-7890\" \"0000-0003-3535-2076\" \"0000-0003-3943-8299\" \"0000-0003-4000-7912\" \"0000-0003-4075-9217\" \"0000-0003-4396-0354\" \"0009-0009-1637-262X\" } ?person wdt:P496 ?orcid. }\n      UNION\n      { VALUES ?openalex { \"A5000173541\" \"A5001344790\" \"A5005934557\" \"A5008191157\" \"A5010586842\" \"A5013396744\" \"A5013691408\" \"A5016732250\" \"A5018383701\" \"A5020929771\" \"A5020935277\" \"A5023927345\" \"A5023997675\" \"A5025842714\" \"A5027072009\" \"A5029784374\" \"A5030853497\" \"A5033836026\" \"A5035240489\" \"A5035326044\" \"A5037080909\" \"A5039318263\" \"A5042084987\" \"A5042662889\" \"A5046785251\" \"A5050524015\" \"A5051219873\" \"A5054096370\" \"A5055769040\" \"A5058056443\" \"A5061962417\" \"A5062136919\" \"A5062388626\" \"A5062738098\" \"A5062865415\" \"A5070135428\" \"A5077104571\" \"A5078038225\" \"A5079257651\" \"A5080760636\" } ?person wdt:P10283 ?openalex. }\n      ?person wdt:P31 wd:Q5; p:P21 ?statement.\n      ?statement ps:P21 ?gender; wikibase:rank ?rank.\n      FILTER(?rank != wikibase:DeprecatedRank)\n      OPTIONAL { ?statement prov:wasDerivedFrom ?reference.\n        OPTIONAL { ?reference pr:P854 ?referenceUrl. }\n        OPTIONAL { ?reference pr:P248 ?referenceWork. }\n      }\n    } LIMIT 500",
+          "format": "json"
+        }
+      }
+    ]
+  },
+  {
+    "doi": "10.1056/nejmoa2034577",
+    "status": "complete",
+    "candidate_count": 8,
+    "automatic_women": [
+      {
+        "doi": "10.1038/mt.2008.200",
+        "name": "Katalin Karikó",
+        "method": "curated_persistent_id",
+        "sources": [
+          "https://www.nobelprize.org/prizes/medicine/2023/kariko/facts/",
+          "https://api.nobelprize.org/2.1/laureate/1024"
+        ]
+      },
+      {
+        "doi": "10.1016/j.jconrel.2015.08.007",
+        "name": "Katalin Karikó",
+        "method": "curated_persistent_id",
+        "sources": [
+          "https://www.nobelprize.org/prizes/medicine/2023/kariko/facts/",
+          "https://api.nobelprize.org/2.1/laureate/1024"
+        ]
+      },
+      {
+        "doi": "10.1126/scitranslmed.abe0948",
+        "name": "Ann M. Arvin",
+        "method": "wikidata_orcid",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q4766238",
+          "http://www.wikidata.org/entity/Q13550863"
+        ]
+      }
+    ],
+    "warnings": [
+      "Identidades: consulta limitada a 40 IDs OpenAlex por investigação.",
+      "Identidades: consulta limitada a 40 ORCIDs por investigação; demais identidades permanecem pendentes.",
+      "Candidatos automáticos não foram adicionados ao catálogo editorial verificado nem ao grafo de contribuições verificadas.",
+      "Busca por tópicos prioriza trabalhos mais citados e pode reproduzir vieses de visibilidade; não é uma ordenação por mérito ou completude."
+    ],
+    "sources": [
+      {
+        "source": "openalex",
+        "source_url": "https://api.openalex.org/works",
+        "retrieved_at": "2026-10-21T10:23:50.288147+00:00",
+        "from_cache": false,
+        "query": {
+          "filter": "openalex_id:W1420726270|W2058647478|W2994612945|W3007643904|W3010233963|W3092921648,has_doi:true",
+          "per-page": 6
+        }
+      },
+      {
+        "source": "openalex",
+        "source_url": "https://api.openalex.org/works",
+        "retrieved_at": "2026-10-21T10:23:50.298985+00:00",
+        "from_cache": false,
+        "query": {
+          "filter": "topics.id:T10118,has_doi:true",
+          "per-page": 4,
+          "sort": "cited_by_count:desc"
+        }
+      },
+      {
+        "source": "openalex",
+        "source_url": "https://api.openalex.org/works",
+        "retrieved_at": "2026-10-21T10:23:50.319148+00:00",
+        "from_cache": false,
+        "query": {
+          "filter": "topics.id:T10041,has_doi:true",
+          "per-page": 4,
+          "sort": "cited_by_count:desc"
+        }
+      },
+      {
+        "source": "europe_pmc",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+        "retrieved_at": "2026-10-21T10:23:51.936638+00:00",
+        "from_cache": false,
+        "query": {
+          "query": "TITLE_ABS:\"BNT162b2\" AND HAS_DOI:Y",
+          "format": "json",
+          "resultType": "core",
+          "pageSize": 4
+        }
+      },
+      {
+        "source": "europe_pmc",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+        "retrieved_at": "2026-10-21T10:23:52.436525+00:00",
+        "from_cache": false,
+        "query": {
+          "query": "DOI:10.1016/s0140-6736(20)30183-5",
+          "format": "json",
+          "resultType": "core",
+          "pageSize": 1
+        }
+      },
+      {
+        "source": "europe_pmc",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+        "retrieved_at": "2026-10-21T10:23:52.919346+00:00",
+        "from_cache": false,
+        "query": {
+          "query": "DOI:10.1016/j.jconrel.2015.08.007",
+          "format": "json",
+          "resultType": "core",
+          "pageSize": 1
+        }
+      },
+      {
+        "source": "wikidata",
+        "source_url": "https://query.wikidata.org/sparql",
+        "retrieved_at": "2026-10-21T10:23:53.338080+00:00",
+        "from_cache": false,
+        "query": {
+          "query": "SELECT ?person ?orcid ?openalex ?gender ?referenceUrl ?referenceWork WHERE {\n      { VALUES ?orcid { \"0000-0001-5187-1867\" \"0000-0001-5376-8230\" \"0000-0001-5404-1498\" \"0000-0001-5463-391X\" \"0000-0001-5870-6733\" \"0000-0001-5949-2124\" \"0000-0001-5999-3623\" \"0000-0001-6098-9701\" \"0000-0001-6217-9665\" \"0000-0001-6237-2895\" \"0000-0001-6240-7963\" \"0000-0001-6601-5481\" \"0000-0001-6764-3260\" \"0000-0001-6866-7213\" \"0000-0001-6945-0593\" \"0000-0001-6991-0350\" \"0000-0001-7314-840X\" \"0000-0001-7602-9617\" \"0000-0001-7626-2128\" \"0000-0001-8112-0853\" \"0000-0001-8213-6566\" \"0000-0001-8217-5995\" \"0000-0001-8563-2266\" \"0000-0001-8662-9077\" \"0000-0001-8742-3687\" \"0000-0001-8770-1042\" \"0000-0001-9037-3027\" \"0000-0002-0184-6847\" \"0000-0002-0298-5814\" \"0000-0002-0538-9647\" \"0000-0002-0768-9926\" \"0000-0002-0914-6722\" \"0000-0002-1116-4559\" \"0000-0002-1391-8238\" \"0000-0002-1393-7682\" \"0000-0002-1501-6510\" \"0000-0002-1906-5918\" \"0000-0002-2083-1552\" \"0000-0002-2179-2436\" \"0000-0002-2319-5010\" } ?person wdt:P496 ?orcid. }\n      UNION\n      { VALUES ?openalex { \"A5000889197\" \"A5001488467\" \"A5002770448\" \"A5005176337\" \"A5006065098\" \"A5008676917\" \"A5010891569\" \"A5012294390\" \"A5012491543\" \"A5013568062\" \"A5014501206\" \"A5014572115\" \"A5014967648\" \"A5016436400\" \"A5018142228\" \"A5018553332\" \"A5020517288\" \"A5020678290\" \"A5021608465\" \"A5024510838\" \"A5024929222\" \"A5026007726\" \"A5026950152\" \"A5027418526\" \"A5031255136\" \"A5031491320\" \"A5032532898\" \"A5033989283\" \"A5034117843\" \"A5037416293\" \"A5038633732\" \"A5039648333\" \"A5040008768\" \"A5040649116\" \"A5043363695\" \"A5043549502\" \"A5044903467\" \"A5045493285\" \"A5045788106\" \"A5051827275\" } ?person wdt:P10283 ?openalex. }\n      ?person wdt:P31 wd:Q5; p:P21 ?statement.\n      ?statement ps:P21 ?gender; wikibase:rank ?rank.\n      FILTER(?rank != wikibase:DeprecatedRank)\n      OPTIONAL { ?statement prov:wasDerivedFrom ?reference.\n        OPTIONAL { ?reference pr:P854 ?referenceUrl. }\n        OPTIONAL { ?reference pr:P248 ?referenceWork. }\n      }\n    } LIMIT 500",
+          "format": "json"
+        }
+      }
+    ]
+  }
+]

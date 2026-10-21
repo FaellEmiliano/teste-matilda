@@ -57,3 +57,26 @@ a equipe e o pitch permanecem sob responsabilidade dos participantes.
 
 A versão atual do TestClient gera um aviso de depreciação sobre HTTPX; os testes
 passam. Não afeta as requisições da aplicação, feitas pelo adaptador HTTPX.
+
+## Ampliação automática — atualização de 21/10/2026
+
+Validação atual: **59 testes backend aprovados**, **6 testes de navegador
+aprovados** e build TypeScript/Vite concluído. Os testes adicionais cobrem:
+
+- ORCID e ID OpenAlex exatos, identidade sem identificador, declarações sem fonte,
+  referências com protocolo inválido e identidades conflitantes.
+- Ingestão por DOI normalizado, cache com procedência, histórico idempotente,
+  limites de paginação e preservação do catálogo editorial.
+- Trecho literal de resultados, ausência de resumo, recusa de complementos com
+  DOI incompatível, respostas malformadas, retries de 429 e timeout parcial.
+- Interface de candidatos, filtro de identidade documentada, fontes, celular e
+  tentativa novamente após falha sem perder a investigação original.
+
+O teste real com CRISPR e RNA também foi executado por API e navegador. Cada
+cenário retornou oito candidatos. A identificação de Ann M. Arvin por ORCID no
+Wikidata demonstrou descoberta fora dos três nomes manuais, mantendo a atribuição
+científica pendente. As consultas, datas, fontes e indicações de cache constam em
+[automatic-discovery-live-check.json](automatic-discovery-live-check.json).
+
+[Captura da ampliação automática](screenshots/automatic-discovery.png).
+As integrações públicas podem mudar; a validação registra uma observação datada.

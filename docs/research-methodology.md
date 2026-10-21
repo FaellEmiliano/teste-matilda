@@ -79,3 +79,13 @@ O catálogo fica abaixo da meta de 8–12 pesquisadoras e 12–20 contribuiçõe
 PRD. Não há cobertura geral, investigação histórica automática, análise de PDFs,
 pesquisa recursiva, verificação de conteúdo integral ou inferência de injustiça.
 A ausência de resultado informa apenas o limite deste catálogo.
+
+
+## Recuperação automática adicional
+
+A ampliação agora descobre publicações a partir dos metadados do artigo, sem
+limitação às áreas ou nomes editoriais. Os conceitos dinâmicos atribuídos pelo
+OpenAlex são identificados como tal. Candidatos automáticos são mantidos em um
+catálogo separado de observações pendentes de revisão, com identidade por fontes
+explícitas, excertos literais e histórico. Os estados de revisão editorial acima
+não são concedidos a esses registros. Consulte [o método da ampliação](automatic-catalog.md).

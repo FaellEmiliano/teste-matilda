@@ -76,6 +76,7 @@ export interface GraphEdge {
   explanation: string;
 }
 export interface Analysis {
+  external_discovery?: AutomaticDiscoveryResult | null;
   id: string;
   created_at: string;
   paper: Paper;
@@ -88,4 +89,61 @@ export interface Analysis {
     root_node: string;
     coverage_warnings: string[];
   };
+}
+
+export interface AutomaticCandidate {
+  candidate: {
+    id: string;
+    work: {
+      doi: string;
+      title: string;
+      year: number | null;
+      authors: {
+        name: string;
+        openalex_id: string | null;
+        orcid: string | null;
+      }[];
+      topics: string[];
+      sources: {
+        source: string;
+        source_url: string;
+        retrieved_at: string;
+        from_cache: boolean;
+      }[];
+    };
+    record_state: "retrieved" | "automatically_extracted";
+    verification_status: "pending_review";
+    extraction_method: string;
+    excerpt: string | null;
+    excerpt_location: string | null;
+    identities: {
+      author_name: string;
+      status:
+        | "documented_woman"
+        | "reported_without_reference"
+        | "unknown"
+        | "conflicting";
+      method: string;
+      explanation: string;
+      source_urls: string[];
+    }[];
+    limitations: string[];
+  };
+  retrieval_reasons: string[];
+  citation_status: string;
+  relation_type: "RELATED_TO";
+}
+export interface AutomaticDiscoveryResult {
+  status: "complete" | "partial" | "unavailable";
+  started_at: string;
+  completed_at: string;
+  candidates: AutomaticCandidate[];
+  warnings: string[];
+  sources: {
+    source: string;
+    source_url: string;
+    retrieved_at: string;
+    from_cache: boolean;
+  }[];
+  limits: Record<string, number>;
 }

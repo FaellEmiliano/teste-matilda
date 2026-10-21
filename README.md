@@ -49,6 +49,16 @@ Confirme a ficha bibliográfica e clique em **Investigar contribuições feminin
 Selecione uma contribuição, leia a classificação bibliográfica e abra a evidência.
 Use as camadas do grafo, a alternativa em lista ou exporte Markdown/JSON.
 
+## Ampliação automática
+
+Após investigar um DOI, clique em **Ampliar descoberta automaticamente**.
+O sistema busca publicações relacionadas no OpenAlex e Europe PMC, consulta
+identidades por ORCID/ID OpenAlex no Wikidata e acumula candidatos com fontes,
+trechos de resumos e histórico em SQLite. Novos registros ficam pendentes de
+revisão e não recebem automaticamente o selo de contribuição verificada.
+
+[Funcionamento, limites e API da ampliação](docs/automatic-catalog.md).
+
 ## Implementado
 
 - DOI normalizado e validado; consulta OpenAlex com timeout e retries limitados.
@@ -107,6 +117,7 @@ previsto no PRD é o mecanismo implementado.
 
 - [Arquitetura e API](docs/architecture.md)
 - [Método científico e fontes](docs/research-methodology.md)
+- [Catálogo automático](docs/automatic-catalog.md)
 - [Cenários de demonstração](docs/demo-scenarios.md)
 - [Escopo e pendências do PRD](docs/prd-status.md)
 

@@ -21,6 +21,7 @@ import {
   ShieldCheck,
   X,
 } from "lucide-react";
+import { AutomaticDiscovery } from "./components/AutomaticDiscovery";
 import { retrievePaper, investigate } from "./services/api";
 import type { Analysis, Paper, Match, GraphNode } from "./types";
 import {
@@ -430,6 +431,15 @@ export default function App() {
               </section>
             ) : (
               <>
+                <AutomaticDiscovery
+                  key={analysis.id}
+                  analysis={analysis}
+                  onUpdated={(result) =>
+                    setAnalysis((current) =>
+                      current?.id === result.id ? result : current,
+                    )
+                  }
+                />
                 <nav
                   className="mobile-tabs"
                   aria-label="Painéis da investigação"
@@ -768,7 +778,10 @@ export default function App() {
             <p>
               O OpenAlex fornece os metadados e os identificadores citados. Um
               catálogo editorial conecta termos específicos do artigo a
-              contribuições documentadas.
+              contribuições documentadas. A ampliação automática busca
+              publicações relacionadas no OpenAlex e no Europe PMC e consulta
+              identidades por ORCID ou ID OpenAlex no Wikidata. Os candidatos
+              permanecem pendentes de revisão.
             </p>
             <p>
               As explicações usam templates determinísticos. Não há geração de

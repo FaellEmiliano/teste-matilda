@@ -1700,3 +1700,144 @@ details p {
     scroll-behavior: auto !important;
   }
 }
+
+.automatic-discovery {
+  background: #fdfcf7;
+  border: 1px solid #d4ddcd;
+  border-radius: 7px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+}
+.automatic-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.automatic-heading h2 {
+  font-family: Georgia, serif;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 9px 0;
+}
+.automatic-heading p {
+  font-size: 11px;
+  margin-bottom: 0;
+}
+.automatic-heading .primary-button {
+  margin: 0;
+  white-space: nowrap;
+}
+.automatic-results > summary {
+  margin-top: 20px;
+  font-size: 13px;
+}
+.automatic-results .notice {
+  margin: 16px 0;
+}
+.automatic-filter {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 18px 0;
+}
+.candidate-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.candidate-card {
+  padding: 20px;
+  border: 1px solid #dce1d3;
+  border-radius: 6px;
+  background: #f8f8f0;
+  min-width: 0;
+}
+.candidate-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-bottom: 14px;
+}
+.candidate-card h3 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Georgia, serif;
+  font-weight: 400;
+}
+.candidate-card blockquote {
+  margin: 12px 0;
+  padding-left: 14px;
+  border-left: 2px solid #a9b79b;
+  font-size: 12px;
+  line-height: 1.9;
+  color: #53634b;
+}
+.candidate-card .eyebrow {
+  margin-top: 18px;
+  font-size: 8px;
+}
+.candidate-card details {
+  margin-top: 15px;
+}
+.candidate-card ul,
+.automatic-coverage ul {
+  font-size: 11px;
+  color: #57694d;
+  padding-left: 18px;
+}
+.candidate-identity {
+  border-top: 1px solid #dce1d3;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 10px;
+}
+.candidate-identity strong,
+.candidate-identity span {
+  display: block;
+}
+.candidate-identity p {
+  font-size: 10px;
+}
+.candidate-identity a {
+  font-size: 10px;
+  margin-right: 10px;
+}
+.automatic-coverage {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #dce1d3;
+}
+.automatic-empty {
+  font-size: 12px;
+  padding: 20px 0;
+}
+.automatic-error {
+  color: #8a4b31;
+  font-size: 12px;
+}
+@media (max-width: 700px) {
+  .automatic-discovery {
+    padding: 20px 16px;
+  }
+  .automatic-heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .automatic-heading .primary-button {
+    width: 100%;
+    justify-content: center;
+    font-size: 10px;
+  }
+  .candidate-grid {
+    grid-template-columns: 1fr;
+  }
+  .candidate-card {
+    padding: 16px;
+  }
+}
